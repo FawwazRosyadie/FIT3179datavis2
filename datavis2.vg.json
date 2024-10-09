@@ -12,7 +12,7 @@
             {
                 "data": {
                     "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/output.json",
-                    "format":{"type": "topojson"}
+                    "format":{"type": "topojson", "feature": "output"}
                 },
                 "mark":{"type":"geoshape", "fill":"yellow", "stroke":"blue"}
             },
