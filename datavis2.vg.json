@@ -14,7 +14,11 @@
                     "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/geoBoundaries-MYS-ADM1.json",
                     "format":{"type": "topojson", "feature": "geoBoundaries-MYS-ADM1"}
                 },
-                "mark":{"type":"geoshape", "fill":"yellow", "stroke":"blue"}
+                "mark":{"type":"geoshape", "fill":"yellow", "stroke":"blue"},
+                "encoding": {
+                    "longitude":{"field": "longitude", "type": "quantitative"},
+                    "latitude": {"field": "latitude", "type":"quantitative"}
+                }
             },
             {
                 "data": {
@@ -22,8 +26,8 @@
                 },
                 "mark": {"type":"circle", "tooltip": {"content": "data"}},
                 "encoding": {
-                    "longitude":{"field": "longitude", "type": "quantitative"},
-                    "latitude": {"field": "latitude", "type":"quantitative"},
+                    "longitude":{"field": "state", "type": "quantitative"},
+                    "latitude": {"field": "area", "type":"quantitative"},
                     "size":{
                         "field": "area",
                         "type": "quantitative",
