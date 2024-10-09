@@ -4,7 +4,8 @@
     
     "vconcat": [
         {
-        "projection": {"type":"equalEarth"},
+        "projection": {"type":"mercator"},
+        "title":"Permanent Forest Area",
         "layer": [
             {
                 "data": {
@@ -38,6 +39,7 @@
         ]
     },{
         "data":{"url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179/refs/heads/main/timber_products.csv"},
+        "title": "Malaysia Timber Production (log)",
         "params": [
         {
             
