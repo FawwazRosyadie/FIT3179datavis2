@@ -11,8 +11,8 @@
         "layer": [
             {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/output.json",
-                    "format":{"type": "topojson", "feature": "output"}
+                    "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/geoBoundaries-MYS-ADM1.json",
+                    "format":{"type": "topojson", "feature": "geoBoundaries-MYS-ADM1"}
                 },
                 "mark":{"type":"geoshape", "fill":"yellow", "stroke":"blue"}
             },
