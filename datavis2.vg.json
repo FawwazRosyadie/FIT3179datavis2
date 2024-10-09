@@ -1,16 +1,60 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": { "text": "Malaysia Timber Production" },
-    "data":{"url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179/refs/heads/main/timber_products.csv"},
-    "vconcat": [{
+    
+    "vconcat": [
+        {
         "projection": {"type":"equalEarth"},
         "layer": [
             {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/mys_admbnd%20(2).json",
+                    "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/mys_admbnd.json",
                     "format":{"type": "topojson","feature": "mys_admbnd"}
-                }
+                },
+                "mark":{"type":"geoshape", "fill":"lightgray", "stroke":"white"}
+            },
+            {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/forest_reserve_state.csv"
+                },
+                "mark": {"type":"circle", "tooltip": {"content": "data"}},
+                "encoding": {
+                    "longitude":{"field": "longitude", "type": "quantitative"},
+                    "latitude": {"field": "latitude", "type":"quantitative"},
+                    "size":{
+                        "field": "area",
+                        "type": "quantitative",
+                        "title": "Area of Permanent Forest Reserve (in km^2)",
+                        "scale": {"domain": [1, 8]}
+                    },
+                    "color":{
+                        "field": "area",
+                        "type": "quantitative",
+                        "title": "Area of Permanent Forest Reserve (in km^2)",
+                        "scale": {"scheme":"greens"}
+                    }
+                } 
             }
         ]
+    },{
+        "data":{"url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179/refs/heads/main/timber_products.csv"},
+        "params": [
+        {
+            
+            "name": "state_highlight",
+            "select":{"type": "point","fields": ["state"]},
+            "bind":"legend"
+        }
+    ],
+    "mark": "bar",
+    "encoding":{
+        "x":{"field":"date", "type": "ordinal", "title":"Year"},
+        "y":{"field":"production", "type": "quantitative", "title":"Total Wood Log Production Over 21 years"},
+        "color":{"field":"state", "type": "nominal", "title":"Timber Products"},
+        "tooltip":[
+            {"field":"State", "type": "nominal"},
+            {"field":"Production", "type": "quantitative", "format": ",", "title":"Amount of Production"}
+        ]
+    }
     }]
-    
+}
