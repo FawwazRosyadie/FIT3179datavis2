@@ -26,8 +26,8 @@
                 },
                 "mark": {"type":"circle", "tooltip": {"content": "data"}},
                 "encoding": {
-                    "longitude":{"field": "state", "type": "quantitative"},
-                    "latitude": {"field": "area", "type":"quantitative"},
+                    "longitude":{"field": "longitude", "type": "quantitative"},
+                    "latitude": {"field": "latitude", "type":"quantitative"},
                     "size":{
                         "field": "area",
                         "type": "quantitative",
