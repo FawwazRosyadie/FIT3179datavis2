@@ -59,9 +59,9 @@
     "encoding":{
         "x":{"field":"date", "type": "ordinal", "title":"Annual Log Production"},
         "y":{"field":"production", "type": "quantitative", "title":"Total Wood Log Production Over 21 years"},
-        "color":{"field":"state", "type": "nominal", "title":"Timber Products", "scale": {"scheme":"tableau20"}},
+        "color":{"field":"state", "type": "ordinal", "title":"Timber Products", "scale": {"scheme":"tableau20"}},
         "tooltip":[
-            {"field":"state", "type": "nominal", "title":"State"},
+            {"field":"state", "type": "ordinal", "title":"State"},
             {"field":"production", "type": "quantitative", "format": ",", "title":"Amount of Production"}
         ]
     }
