@@ -4,15 +4,15 @@
     
     "vconcat": [
         {
-        "projection": {"type":"mercator"},
+        "projection": {"type":"equalEarth"},
         "title":"Permanent Forest Area",
         "width": 800,
         "height": 600,
         "layer": [
             {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/mys_admbnd.json",
-                    "format":{"type": "topojson","feature": "mys_admbnd"}
+                    "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/output.json",
+                    "format":{"type": "topojson"}
                 },
                 "mark":{"type":"geoshape", "fill":"yellow", "stroke":"white"}
             },
@@ -53,9 +53,9 @@
     ],
     "mark": "bar",
     "encoding":{
-        "x":{"field":"date", "type": "ordinal", "title":"Year"},
+        "x":{"field":"date", "type": "ordinal", "title":"Annual Log Production"},
         "y":{"field":"production", "type": "quantitative", "title":"Total Wood Log Production Over 21 years"},
-        "color":{"field":"state", "type": "nominal", "title":"Timber Products"},
+        "color":{"field":"state", "type": "nominal", "title":"Timber Products", "scale": {"scheme":"tableau20"}},
         "tooltip":[
             {"field":"State", "type": "nominal"},
             {"field":"Production", "type": "quantitative", "format": ",", "title":"Amount of Production"}
