@@ -14,7 +14,7 @@
                     "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/output.json",
                     "format":{"type": "topojson"}
                 },
-                "mark":{"type":"geoshape", "fill":"yellow", "stroke":"white"}
+                "mark":{"type":"geoshape", "fill":"yellow", "stroke":"blue"}
             },
             {
                 "data": {
@@ -40,7 +40,7 @@
         ]
     },{
         "data":{"url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179/refs/heads/main/timber_products.csv"},
-        "title": "Malaysia Timber Production (log)",
+        "title": "Malaysia Log Production",
         "width": 800,
         "height": 600,
         "params": [
