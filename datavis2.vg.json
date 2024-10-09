@@ -6,6 +6,8 @@
         {
         "projection": {"type":"mercator"},
         "title":"Permanent Forest Area",
+        "width": 800,
+        "height": 600,
         "layer": [
             {
                 "data": {
@@ -40,6 +42,8 @@
     },{
         "data":{"url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179/refs/heads/main/timber_products.csv"},
         "title": "Malaysia Timber Production (log)",
+        "width": 800,
+        "height": 600,
         "params": [
         {
             
