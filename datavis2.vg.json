@@ -14,12 +14,8 @@
                     "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/geoBoundaries-MYS-ADM1.topojson",
                     "format":{"type": "topojson", "feature": "geoBoundaries-MYS-ADM1"}
                 },
-                "mark":{"type":"geoshape", "fill":"yellow", "stroke":"blue"},
-                "encoding": {
-                    "longitude":{"field": "longitude", "type": "quantitative"},
-                    "latitude": {"field": "latitude", "type":"quantitative"}
-                }
-            },
+                "mark":{"type":"geoshape", "fill":"yellow", "stroke":"blue"}
+                },
             {
                 "data": {
                     "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/forest_reserve_state.csv"
