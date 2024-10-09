@@ -32,7 +32,7 @@
                     "color":{
                         "field": "area",
                         "type": "quantitative",
-                        "title": "Area of Permanent Forest Reserve (in km^2)",
+                        "title": "Density of Permanent Forest Reserves",
                         "scale": {"scheme":"greens"}
                     }
                 } 
