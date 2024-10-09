@@ -1,0 +1,255 @@
+date,state,product,production
+2000-01-01,Johor,logs,193700
+2001-01-01,Johor,logs,181927
+2002-01-01,Johor,logs,198342
+2003-01-01,Johor,logs,142846
+2004-01-01,Johor,logs,159152
+2005-01-01,Johor,logs,96419
+2006-01-01,Johor,logs,213816
+2007-01-01,Johor,logs,171047
+2008-01-01,Johor,logs,105428
+2009-01-01,Johor,logs,70740
+2010-01-01,Johor,logs,72777
+2011-01-01,Johor,logs,70790
+2012-01-01,Johor,logs,50951
+2013-01-01,Johor,logs,90775
+2014-01-01,Johor,logs,70239
+2015-01-01,Johor,logs,54536
+2016-01-01,Johor,logs,47472
+2017-01-01,Johor,logs,34739
+2018-01-01,Johor,logs,49114
+2019-01-01,Johor,logs,35
+2020-01-01,Johor,logs,21307
+2021-01-01,Johor,logs,4202
+2000-01-01,Kedah,logs,164183
+2001-01-01,Kedah,logs,157005
+2002-01-01,Kedah,logs,141622
+2003-01-01,Kedah,logs,138246
+2004-01-01,Kedah,logs,147042
+2005-01-01,Kedah,logs,109480
+2006-01-01,Kedah,logs,179453
+2007-01-01,Kedah,logs,178092
+2008-01-01,Kedah,logs,233046
+2009-01-01,Kedah,logs,209330
+2010-01-01,Kedah,logs,202477
+2011-01-01,Kedah,logs,367822
+2012-01-01,Kedah,logs,304078
+2013-01-01,Kedah,logs,227543
+2014-01-01,Kedah,logs,293553
+2015-01-01,Kedah,logs,353461
+2016-01-01,Kedah,logs,457791
+2017-01-01,Kedah,logs,449255
+2018-01-01,Kedah,logs,252968
+2019-01-01,Kedah,logs,162218
+2020-01-01,Kedah,logs,85102
+2021-01-01,Kedah,logs,127877
+2000-01-01,Kelantan,logs,1339501
+2001-01-01,Kelantan,logs,944700
+2002-01-01,Kelantan,logs,873026
+2003-01-01,Kelantan,logs,919466
+2004-01-01,Kelantan,logs,694256
+2005-01-01,Kelantan,logs,815585
+2006-01-01,Kelantan,logs,1066479
+2007-01-01,Kelantan,logs,1442811
+2008-01-01,Kelantan,logs,1408715
+2009-01-01,Kelantan,logs,1265291
+2010-01-01,Kelantan,logs,1269968
+2011-01-01,Kelantan,logs,1128921
+2012-01-01,Kelantan,logs,1111040
+2013-01-01,Kelantan,logs,1050474
+2014-01-01,Kelantan,logs,954302
+2015-01-01,Kelantan,logs,887666
+2016-01-01,Kelantan,logs,830567
+2017-01-01,Kelantan,logs,670409
+2018-01-01,Kelantan,logs,916081
+2019-01-01,Kelantan,logs,1181211
+2020-01-01,Kelantan,logs,584701
+2021-01-01,Kelantan,logs,641337
+2000-01-01,Melaka,logs,4310
+2001-01-01,Melaka,logs,1610
+2002-01-01,Melaka,logs,2830
+2004-01-01,Melaka,logs,4407
+2005-01-01,Melaka,logs,111
+2006-01-01,Melaka,logs,1508
+2007-01-01,Melaka,logs,1573
+2008-01-01,Melaka,logs,692
+2009-01-01,Melaka,logs,679
+2010-01-01,Melaka,logs,778
+2011-01-01,Melaka,logs,1163
+2013-01-01,Melaka,logs,16
+2014-01-01,Melaka,logs,4895
+2016-01-01,Melaka,logs,2508
+2017-01-01,Melaka,logs,99
+2018-01-01,Melaka,logs,85
+2019-01-01,Melaka,logs,28
+2000-01-01,Negeri Sembilan,logs,119443
+2001-01-01,Negeri Sembilan,logs,68241
+2002-01-01,Negeri Sembilan,logs,103823
+2003-01-01,Negeri Sembilan,logs,102661
+2004-01-01,Negeri Sembilan,logs,102646
+2005-01-01,Negeri Sembilan,logs,80956
+2006-01-01,Negeri Sembilan,logs,73860
+2007-01-01,Negeri Sembilan,logs,92607
+2008-01-01,Negeri Sembilan,logs,65844
+2009-01-01,Negeri Sembilan,logs,87843
+2010-01-01,Negeri Sembilan,logs,67377
+2011-01-01,Negeri Sembilan,logs,112162
+2012-01-01,Negeri Sembilan,logs,112661
+2013-01-01,Negeri Sembilan,logs,85187
+2014-01-01,Negeri Sembilan,logs,51787
+2015-01-01,Negeri Sembilan,logs,73702
+2016-01-01,Negeri Sembilan,logs,43790
+2017-01-01,Negeri Sembilan,logs,53808
+2018-01-01,Negeri Sembilan,logs,40989
+2019-01-01,Negeri Sembilan,logs,42575
+2020-01-01,Negeri Sembilan,logs,30702
+2021-01-01,Negeri Sembilan,logs,44430
+2000-01-01,Pahang,logs,1706176
+2001-01-01,Pahang,logs,1462046
+2002-01-01,Pahang,logs,1629796
+2003-01-01,Pahang,logs,1604859
+2004-01-01,Pahang,logs,1826066
+2005-01-01,Pahang,logs,1953273
+2006-01-01,Pahang,logs,1782523
+2007-01-01,Pahang,logs,1136901
+2008-01-01,Pahang,logs,1121226
+2009-01-01,Pahang,logs,1174658
+2010-01-01,Pahang,logs,1374041
+2011-01-01,Pahang,logs,1407351
+2012-01-01,Pahang,logs,1661572
+2013-01-01,Pahang,logs,1604992
+2014-01-01,Pahang,logs,1778864
+2015-01-01,Pahang,logs,2037322
+2016-01-01,Pahang,logs,2270648
+2017-01-01,Pahang,logs,1812223
+2018-01-01,Pahang,logs,1787612
+2019-01-01,Pahang,logs,1677034
+2020-01-01,Pahang,logs,945482
+2021-01-01,Pahang,logs,771684
+2000-01-01,Perak,logs,878000
+2001-01-01,Perak,logs,606264
+2002-01-01,Perak,logs,723599
+2003-01-01,Perak,logs,757884
+2004-01-01,Perak,logs,887454
+2005-01-01,Perak,logs,787548
+2006-01-01,Perak,logs,833802
+2007-01-01,Perak,logs,755638
+2008-01-01,Perak,logs,681722
+2009-01-01,Perak,logs,567594
+2010-01-01,Perak,logs,609461
+2011-01-01,Perak,logs,656264
+2012-01-01,Perak,logs,660289
+2013-01-01,Perak,logs,576468
+2014-01-01,Perak,logs,485152
+2015-01-01,Perak,logs,455652
+2016-01-01,Perak,logs,529620
+2017-01-01,Perak,logs,404512
+2018-01-01,Perak,logs,437487
+2019-01-01,Perak,logs,417932
+2020-01-01,Perak,logs,329233
+2021-01-01,Perak,logs,260240
+2010-01-01,Perlis,logs,218
+2011-01-01,Perlis,logs,461
+2012-01-01,Perlis,logs,424
+2013-01-01,Perlis,logs,787
+2014-01-01,Perlis,logs,960
+2015-01-01,Perlis,logs,779
+2016-01-01,Perlis,logs,496
+2017-01-01,Perlis,logs,19
+2018-01-01,Perlis,logs,87
+2019-01-01,Perlis,logs,211
+2020-01-01,Perlis,logs,35741
+2021-01-01,Perlis,logs,51283
+2011-01-01,Pulau Pinang,logs,946
+2012-01-01,Pulau Pinang,logs,2736
+2013-01-01,Pulau Pinang,logs,96
+2020-01-01,Pulau Pinang,logs,41
+2021-01-01,Pulau Pinang,logs,27
+2000-01-01,Sabah,logs,3727762
+2001-01-01,Sabah,logs,2588417
+2002-01-01,Sabah,logs,4436381
+2003-01-01,Sabah,logs,4959460
+2004-01-01,Sabah,logs,5415796
+2005-01-01,Sabah,logs,5957526
+2006-01-01,Sabah,logs,5336081
+2007-01-01,Sabah,logs,5941229
+2008-01-01,Sabah,logs,4718368
+2009-01-01,Sabah,logs,4251951
+2010-01-01,Sabah,logs,3483928
+2011-01-01,Sabah,logs,2212466
+2012-01-01,Sabah,logs,1965671
+2013-01-01,Sabah,logs,2101143
+2014-01-01,Sabah,logs,1829029
+2015-01-01,Sabah,logs,1856451
+2016-01-01,Sabah,logs,2083435
+2017-01-01,Sabah,logs,1375455
+2018-01-01,Sabah,logs,1384739
+2019-01-01,Sabah,logs,1074922
+2020-01-01,Sabah,logs,680800
+2021-01-01,Sabah,logs,1122292
+2000-01-01,Sarawak,logs,14274000
+2001-01-01,Sarawak,logs,12179000
+2002-01-01,Sarawak,logs,11855000
+2003-01-01,Sarawak,logs,12153000
+2004-01-01,Sarawak,logs,12051000
+2005-01-01,Sarawak,logs,12035713
+2006-01-01,Sarawak,logs,11864167
+2007-01-01,Sarawak,logs,11891244
+2008-01-01,Sarawak,logs,11335576
+2009-01-01,Sarawak,logs,10371139
+2010-01-01,Sarawak,logs,10151817
+2011-01-01,Sarawak,logs,9610434
+2012-01-01,Sarawak,logs,9458563
+2013-01-01,Sarawak,logs,8211078
+2014-01-01,Sarawak,logs,8716098
+2015-01-01,Sarawak,logs,8200719
+2016-01-01,Sarawak,logs,7413526
+2017-01-01,Sarawak,logs,5489624
+2018-01-01,Sarawak,logs,4696721
+2019-01-01,Sarawak,logs,4074254
+2020-01-01,Sarawak,logs,2417100
+2021-01-01,Sarawak,logs,2334910
+2000-01-01,Selangor,logs,69994
+2001-01-01,Selangor,logs,65015
+2002-01-01,Selangor,logs,44388
+2003-01-01,Selangor,logs,71288
+2004-01-01,Selangor,logs,40492
+2005-01-01,Selangor,logs,38981
+2006-01-01,Selangor,logs,48142
+2007-01-01,Selangor,logs,37847
+2008-01-01,Selangor,logs,23789
+2009-01-01,Selangor,logs,6193
+2010-01-01,Selangor,logs,4333
+2011-01-01,Selangor,logs,2596
+2012-01-01,Selangor,logs,2064
+2013-01-01,Selangor,logs,1072
+2014-01-01,Selangor,logs,703
+2015-01-01,Selangor,logs,4311
+2016-01-01,Selangor,logs,4286
+2017-01-01,Selangor,logs,3577
+2018-01-01,Selangor,logs,28978
+2019-01-01,Selangor,logs,853
+2020-01-01,Selangor,logs,233
+2021-01-01,Selangor,logs,134
+2000-01-01,Terengganu,logs,596843
+2001-01-01,Terengganu,logs,668322
+2002-01-01,Terengganu,logs,640864
+2003-01-01,Terengganu,logs,682146
+2004-01-01,Terengganu,logs,711403
+2005-01-01,Terengganu,logs,522738
+2006-01-01,Terengganu,logs,493864
+2007-01-01,Terengganu,logs,403786
+2008-01-01,Terengganu,logs,388262
+2009-01-01,Terengganu,logs,304389
+2010-01-01,Terengganu,logs,560138
+2011-01-01,Terengganu,logs,423495
+2012-01-01,Terengganu,logs,561852
+2013-01-01,Terengganu,logs,447044
+2014-01-01,Terengganu,logs,474091
+2015-01-01,Terengganu,logs,296115
+2016-01-01,Terengganu,logs,263606
+2017-01-01,Terengganu,logs,380544
+2018-01-01,Terengganu,logs,677844
+2019-01-01,Terengganu,logs,396237
+2020-01-01,Terengganu,logs,189917
+2021-01-01,Terengganu,logs,211839
