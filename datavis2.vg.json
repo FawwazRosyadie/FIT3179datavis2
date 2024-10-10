@@ -1,9 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": { "text": "Malaysia Forest Reserve and Timber Production" },
+    "title": { "text": "Malaysia Forest Reserve and Timber Production", "fontSize":16 },
     
     "vconcat": [
       {
+        "title":"Malaysia Forest Reserve Density",
+        "height":400,
+        "width":800,
         "projection": { "type": "mercator" },
         "data": {
           "url": "https://raw.githubusercontent.com/FawwazRosyadie/FIT3179datavis2/refs/heads/main/geoBoundaries-MYS-ADM1.json",
