@@ -28,7 +28,8 @@
         "encoding": {
           "color": {
             "field": "area",
-            "type": "quantitative"
+            "type": "quantitative",
+            "scale":{"scheme":"greens"}
           },
           "tooltip": [
             { "field": "properties.shapeName", "type": "nominal", "title": "State" },
@@ -52,7 +53,7 @@
         "encoding": {
           "x": { "field": "date", "type": "ordinal", "title": "Annual Log Production" },
           "y": { "field": "production", "type": "quantitative", "title": "Total Wood Log Production Over 21 years" },
-          "color": { "field": "state", "type": "ordinal", "title": "Timber Products", "scale": { "scheme": "tableau20" } },
+          "color": { "field": "state", "type": "ordinal", "title": "Timber Products", "scale": { "scheme": "category20b" } },
           "tooltip": [
             { "field": "state", "type": "ordinal", "title": "State" },
             { "field": "production", "type": "quantitative", "format": ",", "title": "Amount of Production" }
