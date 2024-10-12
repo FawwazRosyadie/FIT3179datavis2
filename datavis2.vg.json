@@ -1,6 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": { "text": "Malaysia Forest Reserve and Timber Production", "fontSize":16 },
+    "title": { "text": "Malaysia Forest Reserve and Timber Production", "fontSize":16, "align": "center" },
+    "background":"darkturquoise",
+    "center": true,
     
     "vconcat": [
       {
